@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Estrategias de identificación de necesidades de los clientes
-    .row.bg-c7.mb-5
+    .row.bg-c7.mb-0.mb-lg-5
       .col-12
         .px-5
           p La identificación de clientes se mide y caracteriza por un sector del mercado potencial que todavía no compra los productos o servicios, y de hacerlo, daría mejores márgenes de ganancias.
@@ -63,9 +63,9 @@
       .col-lg-8.mb-4.mb-lg-0
         .p-4.bg-c9.h-100
           .row.align-items-center
-            .col-md-auto
+            .col-md-auto.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/tema3/img5.svg', style='width: 230px', alt='')
+                img(src='@/assets/curso/tema3/img5.svg', style='width: 230px', alt='').m-auto
             .col
               p.txt-c1 #[b ¿Sabías qué?]
               p.text-white Lo invitamos a escuchar el siguiente Pódcast:

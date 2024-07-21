@@ -33,7 +33,7 @@
         .p-5.bg-c29
           .row.justify-content-center
             .col-md-8.col-lg-4.mb-4.mb-lg-0
-              .p-4.bg-c30
+              .p-4.bg-c30.h-100
                 figure.mb-4
                   img(src='@/assets/curso/tema13/img2.png', style="width: 300px" alt='')
                 .row.justify-content-center.mb-3
@@ -42,7 +42,7 @@
                       p.text-white.mb-0 #[b Garantía personal]
                 p.text-center.mb-0 Dependiendo de la política de crédito, suele ser el avalista o fiador quien será responsable del no pago de la deuda, sin embargo, podría darse como garantía personal, solamente el pagaré en blanco firmado por parte del deudor.
             .col-md-8.col-lg-4.mb-4.mb-lg-0
-              .p-4.bg-c30
+              .p-4.bg-c30.h-100
                 figure.mb-4
                   img(src='@/assets/curso/tema13/img3.png', style="width: 300px" alt='')
                 .row.justify-content-center.mb-3
@@ -51,7 +51,7 @@
                       p.text-white.mb-0 #[b Garantía hipotecaria]
                 p.text-center.mb-0 Normalmente son bienes inmuebles (casas, apartamentos, bodegas, locales etc.), los cuales quedan a favor de la entidad, respaldando la deuda.
             .col-md-8.col-lg-4
-              .p-4.bg-c30
+              .p-4.bg-c30.h-100
                 figure.mb-4
                   img(src='@/assets/curso/tema13/img4.png', style="width: 300px" alt='')
                 .row.justify-content-center.mb-3

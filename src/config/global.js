@@ -236,32 +236,162 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Mercado objetivo',
+      referencia:
+        'Prieto Herrera, J. E. (2009). Investigación de mercados. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/69104',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Sistema de administración de riesgo crediticio SARC',
+      referencia:
+        'Ruza, C. (2013). El riesgo de crédito en perspectiva. UNED - Universidad Nacional de Educación a Distancia.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/48687',
+    },
+    {
+      tema: 'Factores de evaluación para los microcréditos',
+      referencia:
+        'Morales Castro, J. A. y Castro. Arturo, M. (2015). Crédito y cobranza. Grupo Editorial Patria.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/39380',
+    },
+    {
+      tema: 'Minería de datos y confidencialidad',
+      referencia:
+        'Marqués, M. (2009). Bases de datos. D - Universitat Jaume I. Servei de Comunicació i Publicacions.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/51645',
+    },
+    {
+      tema: 'Técnicas de comprobación de la información de clientes',
+      referencia:
+        'Arenal Laza, C. (2018). Técnicas de información y atención al cliente, consumidor, usuario: UF0037. Editorial Tutor Formación.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44246',
+    },
+    {
+      tema: 'Capacidad de pago',
+      referencia:
+        'Lavalle Burguete, A. C. (2017). Análisis financiero. Editorial Digital UNID.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/41183',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Balance general',
+      significado:
+        'refleja en un momento determinado la información económica y financiera de una empresa.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Cruce de información',
+      significado:
+        'es el cotejo que se obtiene luego de una comparación de dos o más tipos de información para su verificación y análisis.',
+    },
+    {
+      termino: 'Estados financieros',
+      significado:
+        'son el reflejo de la contabilidad de una empresa y muestran la estructura económica de ésta. En los estados financieros se plasman las actividades económicas que se realizan en la empresa durante un determinado período.',
+    },
+    {
+      termino: 'Flujo unidad familiar',
+      significado:
+        'informe detallado de los ingresos y egresos de la familia, en el microcrédito es esencial revisar este informe ya que el microempresario en general tiende a mezclar las cuentas de la familia y del negocio.',
+    },
+    {
+      termino: 'Método de cálculo',
+      significado:
+        'son herramientas que tiene un asesor microfinanciero para determinar o calcular el nivel de ventas y compras que realiza el cliente para poder determinar la viabilidad del crédito de acuerdo al manejo del negocio.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Arenal Laza, C. (2018). Técnicas de información y atención al cliente, consumidor, usuario: UF0037. Editorial Tutor Formación. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44246',
+    },
+    {
+      referencia:
+        'Banco de Occidente (2017). Circular externa 026 de 2017. Capítulo II: reglas relativas a la gestión del riesgo crediticio. ',
+      link:
+        'https://www.bancodeoccidente.com.co/wps/wcm/connect/banco-de-occidente/2d52a212-d27a-4951-8804-ef0ed374a8ed/circular-externa-superfinanciera.pdf?MOD=AJPERES',
+    },
+    {
+      referencia:
+        'Espinosa, H. (2016). Características de los clientes de microcréditos. Uniminuto.',
       link: '',
+    },
+    {
+      referencia:
+        'Greciet Paredes, P. (2013). Contabilidad básica para micro, pequeña y medianas empresa en Honduras. Ministerio de Educación de España. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/49356',
+    },
+    {
+      referencia:
+        'Jaffe, D. y Price, B. (2015). ¡Tú cliente manda!. Grupo Editorial Patria. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/114221',
+    },
+    {
+      referencia:
+        'Lavalle Burguete, A. C. (2017). Análisis financiero. Editorial Digital UNID. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/41183',
+    },
+    {
+      referencia:
+        'Marqués, M. (2009). Bases de datos. D - Universitat Jaume I. Servei de Comunicació i Publicacions. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/51645',
+    },
+    {
+      referencia:
+        'Moldejar, J., Lorenzo, C. & Borja, (2008). Interacción persona-ordenador en la investigación del proceso de decisión del consumidor. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Morales Castro, J. A. y Castro. Arturo, M. (2015). Crédito y cobranza. Grupo Editorial Patria. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/39380',
+    },
+    {
+      referencia:
+        'Prieto Herrera, J. E. (2009). Investigación de mercados. Ecoe Ediciones. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/69104',
+    },
+    {
+      referencia:
+        'Ruza, C. (2013). El riesgo de crédito en perspectiva. UNED - Universidad Nacional de Educación a Distancia. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/48687',
+    },
+    {
+      referencia:
+        'Superintendencia Bancaria de Colombia (2006). Curso Administración y Recuperación de la Cartera de Créditos. ',
+      link: 'https://www.coursehero.com/file/44956137/MATERIAL-DE-APOYO-2doc/',
+    },
+    {
+      referencia:
+        'Thompson, H. (2016). ¿¿Quién se ha llevado a mi cliente?? Estrategias clave para fidelizar a los clientes. Grupo Editorial Patria. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/114369',
+    },
+    {
+      referencia:
+        'Zapata Martelo, E. Garcí, Z. y Alberti Manzanares, P. (2008). Microfinanciamiento y empoderamiento de mujeres rurales: las cajas de ahorro y crédito en México. Plaza y Valdés, S.A. de C.V. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/75513',
     },
   ],
   creditos: [
@@ -284,8 +414,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Vilma Andrea Baracaldo Neira',
+          cargo: 'Experta Temática',
+          centro: 'Centro de Servicios Financieros - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -294,12 +429,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andrés Felipe Herrera Roldán',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -309,7 +444,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -318,16 +453,16 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',

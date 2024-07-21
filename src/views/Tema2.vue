@@ -16,7 +16,7 @@
             .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/tema2/img2.png", style="width: 400px" alt="").m-auto
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul2
             .p-4.p-md-5
               SlyderA(tipo="b")
                 .row.align-items-center.justify-content-center

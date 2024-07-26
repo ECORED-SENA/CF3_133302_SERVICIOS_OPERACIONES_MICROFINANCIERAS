@@ -2,17 +2,17 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Estrategias de identificación de necesidades de los clientes
     .row.bg-c7.mb-0.mb-lg-5
       .col-12
         .px-5
-          p La identificación de clientes se mide y caracteriza por un sector del mercado potencial que todavía no compra los productos o servicios, y de hacerlo, daría mejores márgenes de ganancias.
-          p.mb-4 Existe diferentes clases de factores que determinan la concesión de un crédito, entre las que se pueden mencionar:
+          p(data-aos="fade-right") La identificación de clientes se mide y caracteriza por un sector del mercado potencial que todavía no compra los productos o servicios, y de hacerlo, daría mejores márgenes de ganancias.
+          p.mb-4(data-aos="fade-right") Existen diferentes clases de factores que determinan la concesión de un crédito, entre las que se pueden mencionar:
           .row.justify-content-center.align-items-center.mb-4
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               ul.lista-ul.mb-0
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #B15815")
@@ -26,11 +26,11 @@
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #B15815")
                   | Criterios relacionados con la información contable del negocio.
-            .col-lg-4
+            .col-lg-4(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema3/img1.png', alt='alt', style='width: 400px').m-auto
-          p.mb-4 Existen diferentes clases de estrategias para identificar las necesidades de los clientes, como por ejemplo:
-          .row
+          p.mb-4(data-aos="fade-right") Existen diferentes clases de estrategias para identificar las necesidades de los clientes, como por ejemplo:
+          .row(data-aos="fade-down")
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta-avatar
                 img(src='@/assets/curso/tema3/img1.svg' alt='AvatarTop')
@@ -60,7 +60,7 @@
                     p.text-center #[b Consultar lo que piensa el mercado de la empresa]
                     p.text-center.mb-0 Obtener información acerca de las opiniones y expectativas que tienen los clientes del negocio, de los productos y/o servicios, del servicio al cliente y de los competidores.
     .row
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c9.h-100
           .row.align-items-center
             .col-md-auto.mb-4.mb-md-0
@@ -77,7 +77,7 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         .p-4.bg-c10.h-100
           p Los clientes son la razón del ser del negocio, conseguir la mayor información posible es esencial para hacer crecer la empresa, para ello es importante aplicar las estrategias de identificación de las necesidades de los clientes.
           p.mb-0 Lo invitamos a escuchar el siguiente pódcast, donde se presentan algunos métodos de investigación del cliente.

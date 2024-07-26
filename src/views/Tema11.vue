@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 11
       h1 Indicadores de gestión
@@ -10,9 +10,9 @@
       .col-12
         .px-5
           .row.align-items-center
-            .col-lg-7.order-2.order-lg-1
+            .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
               p.mb-0 Son datos que muestran las consecuencias de las decisiones que tomó la organización en un determinado tiempo, en algún proceso.
-            .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema11/img2.png", style="width: 430px" alt="alt").m-auto
           Separador
@@ -21,7 +21,7 @@
             h2 11.1 Tipos de indicadores
           .row.justify-content-center.mb-5
             .col-lg-8
-              .p-4.bg-c15
+              .p-4.bg-c15(data-aos="fade-down")
                 .row.align-items-center
                   .col.order-2.order-lg-1
                     p.mb-0 Estos indicadores se dividen en varios tipos y todos son importantes a la hora de la toma de acción crediticia.
@@ -38,17 +38,17 @@
             .px-5.py-2.bg-c26
               h3.mb-0 #[span.txt-c1 Indicadores] #[span.text-white financieros]
     .row.align-items-center.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         .p-4.bg-c20
           p.text-white Muestran la relación que existe entre las diferentes cuentas de los estados financieros. Sirven para analizar su liquidez, solvencia, rentabilidad, y eficiencia operativa de un negocio.
           p.text-white.mb-0 Para el análisis de un crédito se dividen en 5 grupos:
-      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema11/img3.png", style="width: 430px" alt="alt").m-auto
     .row.bg-c27.mb-5
       .col-12
         .p-5
-          TabsB.color-acento-botones
+          TabsB.color-acento-botones(data-aos="fade-down")
             .p-4.p-lg-5(titulo="Liquidez" :icono="require('@/assets/curso/tema6/img2.svg')")
               .row.align-items-center.justify-content-center
                 .col-lg-7.mb-4.mb-lg-0
@@ -100,13 +100,13 @@
               h3.mb-0 #[span.txt-c1 Indicadores] #[span.text-white de servicios]
     .row.mb-4
       .col-12
-        .p-4.bg-c15
+        .p-4.bg-c15(data-aos="fade-down")
           p.mb-0 El sector del microcrédito es responsable social por la información y el desarrollo de un país y en pro de esta responsabilidad, se tienen los siguientes indicadores de servicios:
     .row.align-items-center.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema11/img10.png", style="width: 480px" alt="alt").m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         ul.lista-ul.mb-0
           li.d-flex
             i.fas.fa-check-circle(style="color: #B15815")
@@ -123,7 +123,7 @@
           li.d-flex
             i.fas.fa-check-circle(style="color: #B15815")
             |
-            p.mb-0 Apoyo a capital social.
+            p.mb-0 Apoyo al capital social.
           li.d-flex
             i.fas.fa-check-circle(style="color: #B15815")
             |
@@ -150,10 +150,10 @@
             .px-5.py-2.bg-c26
               h3.mb-0 #[span.txt-c1 Indicadores] #[span.text-white de recaudo]
     .row.align-items-center.mb-5
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema11/img11.png", style="width: 260px" alt="").m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Riesgo normal")
             .col-12
@@ -208,10 +208,10 @@
       .col-12
         .p-5
           .row.align-items-center
-            .col-lg-5.mb-4.mb-lg-0
+            .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
               figure
                 img(src="@/assets/curso/tema11/img13.png", style="width: 430px" alt="alt").m-auto
-            .col-lg-7
+            .col-lg-7(data-aos="fade-left")
               p Estos indicadores se pueden dividir en dos grupos:
               ol.lista-ol--cuadro
                 li.d-flex
@@ -283,8 +283,8 @@
     #t_11_2
     .titulo-segundo.color-primario
       h2 11.2 Parámetros
-    p.mb-5 Son todos aquellos datos que determinan la situación de la empresa en términos contables:
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
+    p.mb-5(data-aos="fade-right") Son todos aquellos datos que determinan la situación de la empresa en términos contables:
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")(data-aos="fade-left")
       .row.justify-content-center(titulo="Capital de trabajo")
         .col-lg-10
           p El capital de trabajo muestra si la empresa tiene liquidez después de haber pagado sus pasivos a corto plazo.
@@ -310,24 +310,24 @@
           p #[b Ejemplo]
           p.mb-0 Ventas de contado y a crédito: $1.800.000
           p.mb-0 Capital de trabajo: $1.400.000
-          p Rotación de capital de trabajo = $1.800.000 / $1.400.000 = $1.28
-          p Indica que la empresa logra producir $1.28 pesos de ventas, por cada peso que mantiene en el capital de trabajo.
+          p Rotación de capital de trabajo = $1.800.000 / $1.400.000 = $1,28
+          p Indica que la empresa logra producir $1,28 pesos de ventas, por cada peso que mantiene en el capital de trabajo.
       .row.justify-content-center(titulo="Rentabilidad")
         .col-lg-10
           p Rentabilidad = Utilidad líquida / Total de activos
           p #[b Ejemplo]
           p.mb-0 Utilidad líquida: $500.000
           p.mb-0 Total activos: $4.000.000
-          p Rentabilidad = $500.000 / $4.000.000 = 0,125; 0,125 x 100 = 12.5 %
-          p Es decir, que los activos de la empresa generaron una utilidad del 12.5 % en el año.
+          p Rentabilidad = $500.000 / $4.000.000 = 0,125; 0,125 x 100 = 12,5 %
+          p Es decir, que los activos de la empresa generaron una utilidad del 12,5 % en el año.
       .row.justify-content-center(titulo="Margen bruto")
         .col-lg-10
-          p Margen Bruto = 1 – (Costo de Ventas / Ventas)
+          p Margen Bruto = 1 - (Costo de Ventas / Ventas)
           p #[b Ejemplo]
           p.mb-0 Ventas de contado y a crédito: $2.000.000
           p.mb-0 Costo de ventas: $1.200.000
-          p Margen Bruto = 1 - ($1.200.000 / $2.000.000) = 0,6 x 100 = 60%
-          p Del total de las ventas ,se generó una utilidad bruta del 60%.
+          p Margen Bruto = 1 - ($1.200.000 / $2.000.000) = 0,6 x 100 = 60 %
+          p Del total de las ventas, se generó una utilidad bruta del 60 %.
       .row.justify-content-center(titulo="Endeudamiento futuro")
         .col-lg-10
           p Endeudamiento futuro = (Deudas + Préstamos) / Total de Activos.

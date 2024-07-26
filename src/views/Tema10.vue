@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 10
       h1 Análisis financiero
@@ -10,20 +10,20 @@
       .col-12
         .px-5
           .row.align-items-center.mb-5
-            .col-lg-7.order-2.order-lg-1
+            .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
               p En un análisis financiero se ejecutan varias acciones: viabilidad, estabilidad y rentabilidad de un negocio, en el caso de las microfinanzas, es vital para observar la situación del negocio; este análisis permite comprender la información contable para diagnosticar la situación actual del negocio y proyectar su futuro.
               p.mb-0 Existen dos tipos de análisis financiero, de acuerdo con el tipo de información:
-            .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema10/img1.png", style="width: 430px" alt="alt").m-auto
           .row.justify-content-center
-            .col-md-8.col-lg-3.mb-4.mb-lg-0
+            .col-md-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c15
                 figure.mb-4
                   img(src="@/assets/curso/tema10/img1.svg", style="width: 100px" alt="alt").m-auto
                 p.text-center #[b Análisis vertical]
                 p.text-center.mb-0 Se utiliza cuando se trabajan los estados financieros de una empresa en un mismo año.
-            .col-md-8.col-lg-3
+            .col-md-8.col-lg-3(data-aos="fade-left")
               .p-4.bg-c15
                 figure.mb-4
                   img(src="@/assets/curso/tema10/img2.svg", style="width: 100px" alt="alt").m-auto
@@ -34,18 +34,18 @@
     .titulo-segundo.color-primario
       h2 10.1 Sobreendeudamiento
     .row.align-items-center.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p El sobreendeudamiento es la acumulación de deuda que no puede ser pagada con el nivel de ingresos actual y esperado.
         p Las personas ingresan al mercado de crédito con la intención de gastar más cuando tienen ingresos bajos y luego pagar la deuda al aumentar sus ingresos esperados.
         p.mb-0 Analicemos algunos puntos importantes:
-      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema10/img2.png", style="width: 430px" alt="alt").m-auto
     .row.align-items-center
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema10/img3.png", style="width: 260px" alt="").m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Causas de sobreendeudamiento")
             .col-12
@@ -156,17 +156,17 @@
     .titulo-segundo.color-primario
       h2 10.2 Capacidad de pago
     .row.align-items-center.mb-4
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         p En el estudio de un crédito es determinante para el otorgamiento o no del microcrédito o crédito y para eso es recomendable tener en cuenta la capacidad de pago, con esta se obtiene la situación económica del negocio y cómo esta capacidad de pago se refleja en los estados financieros y la liquidez precisa con que cuenta el negocio / propietario para atender las cuotas del crédito.
         p La capacidad se determinará mediante la formulación de los estados financieros de la microempresa (balance general el estado de pérdidas y ganancias), y el flujo de caja de la unidad socioeconómica.
         .row
           .col-12
             .p-4.bg-c15
               p.mb-0 El flujo mensual de efectivo de la unidad socioeconómica, establece la totalidad de los ingresos y los egresos de la unidad familiar, así como el flujo de caja del solicitante del crédito.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema10/img4.png", style="width: 530px" alt="alt").m-auto
-    p.mb-0 El tema de análisis financiero es importante en la preparación para un analista o un comercial, que haga uso de la información para la decisión de un crédito, es por eso que lo invitamos a consultar el capítulo 1 del libro Análisis financiero, el cual se encuentra en el material complementario.
+    p.mb-0(data-aos="fade-right") El tema de análisis financiero es importante en la preparación para un analista o un comercial, que haga uso de la información para la decisión de un crédito, es por eso que lo invitamos a consultar el capítulo 1 del libro Análisis financiero, el cual se encuentra en el material complementario.
 
 </template>
 

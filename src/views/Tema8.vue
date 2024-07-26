@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
       h1 Bases de datos
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .p-3.bg-c6
               p Es la agrupación de toda información que tiene un mismo entorno y puede estar por categorías, esta se ordena de manera sistemática, para poder ser consultada en un momento dado, sirve como análisis, como insumo para la realización de algún proyecto, inclusive con fines comerciales, tiene diversas formas de usos.
               p.mb-0 Las bases de datos se dividen en los siguientes tipos:
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema8/img1.png", style="width: 380px" alt="").m-auto
-    .row.mb-0.mb-lg-5
+    .row.mb-0.mb-lg-5(data-aos="fade-down")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema8/img1.svg' alt='AvatarTop')
@@ -45,13 +45,13 @@
             .p-4
               p.text-center #[b Orientada a objetos]
               p.text-center.mb-0 Objeto se entiende por cualquier cosa del mundo real, ofrece un fácil manejo de todo tipo de dato complejo, manejado de forma rápida y ágil.
-    p En general, las bases de datos son archivadas en las memorias secundarias (discos duros, discos ópticos o memorias flash, servidores, datos en la nube).
-    p.mb-5 Algunas formas de organización primaria, son:
+    p(data-aos="fade-right") En general, las bases de datos son archivadas en las memorias secundarias (discos duros, discos ópticos o memorias flash, servidores, datos en la nube).
+    p.mb-5(data-aos="fade-right") Algunas formas de organización primaria, son:
     .row.align-items-center.mb-4
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema8/img2.png", style="width: 260px" alt="").m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Archivos no ordenados")
             .col-12
@@ -66,10 +66,10 @@
             .col-12
               p.mb-0 Tienen estructura de árbol para ubicar los registros.
     .row.align-items-center
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         p El análisis de datos se usa para determinar si el sistema existente protege los datos efectivamente, opera eficientemente y cumple con las metas de la organización.
         p.mb-0 Las entidades financieras utilizan las bases de datos, por ejemplo, para analizar los retiros y los patrones de gasto, para prevenir fraude o robo en la entidad.
-      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema8/img3.png", style="width: 300px" alt="").m-auto
     Separador
@@ -79,10 +79,10 @@
     .row.bg-c23
       .col-12
         .px-5
-          p La minería de datos (data mining), es un proceso para detectar información de conjuntos grandes de datos, su objetivo es encontrar patrones, tendencias o reglas que expliquen el comportamiento de los datos en un contexto específico.
-          p.mb-4 Algunos de los beneficios que brinda la minería de datos, son:
+          p(data-aos="fade-right") La minería de datos (#[i data mining]), es un proceso para detectar información de conjuntos grandes de datos, su objetivo es encontrar patrones, tendencias o reglas que expliquen el comportamiento de los datos en un contexto específico.
+          p.mb-4(data-aos="fade-right") Algunos de los beneficios que brinda la minería de datos, son:
           .row.align-items-center.mb-4
-            .col-lg-7.order-2.order-lg-1
+            .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #B15815")
@@ -113,17 +113,17 @@
                 .col-12
                   .p-4.bg-c24
                     p.text-white.mb-0 La minería de datos al tener mucha información de las personas, son de gran valor, la información se la entregan por requisito para algún trámite o transacción, es por esto que la minería de datos tiene un código de ética para salvaguardar dicha información de manos inescrupulosas o con fines comerciales que beneficien a terceros.
-            .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema8/img5.png", style="width: 430px" alt="").m-auto
           .row.align-items-center.mb-5
-            .col-lg-10.order-2.order-lg-1
+            .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
               p Es así como muchas empresas aprovechan la información de la minería de datos y asumen que el individuo la entrega, por ejemplo, si una persona realiza transacciones con su tarjeta de crédito o con algún otro producto y esta información es muy útil para las empresas, detectando hábitos de consumo y de pago, estos datos los pueden utilizar con fines comerciales.
               .row
                 .col-12
                   .p-4.bg-c15
                     p.mb-0 Para ampliar la información, lo invitamos a consultar el capítulo 1 del libro Bases de datos, el cual se encuentra en el material complementario.
-            .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema8/img5.svg", style="width: 140px" alt="").m-auto
 

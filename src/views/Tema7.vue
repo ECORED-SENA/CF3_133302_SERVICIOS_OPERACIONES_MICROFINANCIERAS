@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 7
       h1 Cliente microfinanciero
     .row.align-items-center
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .p-4.bg-c6
@@ -19,7 +19,7 @@
                   .p-4.bg-c20
                     p.text-white.mb-0 Son personas de bajos ingresos que no tienen acceso a instituciones financieras formales.
               p.mb-0 Los clientes de microfinanzas suelen ser autónomos, a menudo emprendedores domésticos. Son pobres y no pobres vulnerables, que tienen una fuente de ingresos relativamente estable.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema7/img1.png", style="width: 500px" alt="")
     Separador
@@ -29,12 +29,12 @@
     .row.bg-c21
       .col-12
         .px-5
-          p.mb-5 Espinosa (2016), nos presenta los siguientes tipos de clientes:
+          p.mb-5(data-aos="fade-right") Espinosa (2016), nos presenta los siguientes tipos de clientes:
           .row.align-items-center.mb-5
-            .col-lg-3.mb-4.mb-lg-0
+            .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
               figure
                 img(src="@/assets/curso/tema7/img3.png", style="width: 300px" alt="").m-auto
-            .col-lg-9
+            .col-lg-9(data-aos="fade-left")
               SlyderF(columnas="col-md-6")
                 .tarjeta.color-acento-botones1.p-4
                   .row.justify-content-center.mb-3
@@ -81,8 +81,8 @@
                       .p-2.bg-c5
                         p.text-white.mb-0 #[b El cliente indeciso]
                   p.text-center Tiene demasiada indecisión para realizar una compra y necesita apoyo de un tercero.
-    p.mb-5 Sin embargo, en el microcrédito existen los siguientes tipos de clientes:
-    .tarjeta.tarjeta--azul2
+    p.mb-5(data-aos="fade-right") Sin embargo, en el microcrédito existen los siguientes tipos de clientes:
+    .tarjeta.tarjeta--azul2(data-aos="fade-down")
       .p-4.p-md-5
         SlyderA(tipo="b")
           .row.align-items-center.justify-content-center
@@ -118,13 +118,13 @@
     .titulo-segundo.color-primario
       h2 7.2 Manejo de los momentos de verdad
     .row.align-items-center
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p Es la percepción cuando el proveedor de un servicio y el cliente se confrontan, cuando se tiene contacto con el cliente; en este proceso se entrega un producto y/o servicio donde incluye la habilidad, la motivación y las herramientas utilizadas de quien representa la empresa, así mismo las expectativas y comportamiento del cliente.
         .row
           .col-12
             .p-4.bg-c10
               p.mb-0 En definitiva, un momento de verdad es una promesa que se relaciona con la marca o con un producto individual.
-      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema7/img3.svg", style="width: 400px" alt="").m-auto
     Separador
@@ -135,17 +135,17 @@
       .col-12
         .px-5
           .row.align-items-center.mb-5
-            .col-lg-9.order-2.order-lg-1
+            .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
               p Se deben conocer las características de los clientes, puesto que es importante conocer su comportamiento para saber cómo tratarlo, tanto en el momento del otorgamiento del crédito como para la cobranza, en caso que llegue a quedar en mora.
               p.mb-0 A continuación, se encuentran las características de los clientes según su influencia y nivel de expresividad. Con estos datos y características, como asesor, puede hacer una matriz y avanzar en el reconocimiento de su cliente objetivo:
-            .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema7/img8.png", style="width: 300px" alt="").m-auto
-          TabsB.color-acento-botones.mb-5
+          TabsB.color-acento-botones.mb-5(data-aos="fade-left")
             .p-4.p-lg-5(titulo="Extrovertido - Influyente" :icono="require('@/assets/curso/tema6/img2.svg')")
               .row.align-items-center.justify-content-center
                 .col-lg-7.mb-4.mb-lg-0
-                  p #[b Afable]
+                  p #[b Aable]
                   ul.lista-ul
                     li.d-flex
                       i.fas.fa-check-circle(style="color: #B15815")

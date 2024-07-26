@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Sistema de administración de riesgo crediticio SARC
     .row.bg-c7.mb-5
       .col-12
         .px-5
-          .row.align-items-center.mb-5
+          .row.align-items-center.mb-5(data-aos="fade-right")
             .col-lg-8.order-2.order-lg-1
               p SARC es el sistema administrativo de riesgo crediticio y tiene políticas y procedimientos específicos, los cuales definen los criterios y la forma mediante la cual la entidad evalúa, asume, califica, controla y cubre el riesgo crediticio.
               p.mb-0 SARC es el acrónimo de Sistema de Riesgo Crediticio y es tan importante que se basa en unos principios fundamentales que se evidencian a continuación:
             .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
               figure
                 img(src="@/assets/curso/tema2/img2.png", style="width: 400px" alt="").m-auto
-          .tarjeta.tarjeta--azul2
+          .tarjeta.tarjeta--azul2(data-aos="fade-left")
             .p-4.p-md-5
               SlyderA(tipo="b")
                 .row.align-items-center.justify-content-center
@@ -71,22 +71,22 @@
                 .row.align-items-center.justify-content-center
                   .col-lg-5
                     p.text-white #[b Recuperación de cartera]
-                    p.text-white.mb-0 Las entidades dentro de su políticas y procedimientos, deben adelantar la toma oportuna de medidas para enfrentar los incumplimientos, con el objeto de minimizar las pérdidas, con base en la historia de recuperaciones y las variables críticas que determinan la minimización de las pérdidas.
+                    p.text-white.mb-0 Las entidades dentro de sus políticas y procedimientos, deben adelantar la toma oportuna de medidas para enfrentar los incumplimientos, con el objeto de minimizar las pérdidas, con base en la historia de recuperaciones y las variables críticas que determinan la minimización de las pérdidas.
                   .col-lg-5
                     figure
                       img(src="@/assets/curso/tema2/img10.png", style="width: 500px" alt="").m-auto
     .row.align-items-center.mb-5
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p En el Comité de Basilea, se introdujeron incentivos para que las entidades desarrollen sus propios sistemas de gestión de riesgo. Para conocer a profundidad acerca del tema, lo invitamos a consultar #[b El riesgo de crédito en perspectiva], el cual se encuentra en el material complementario.
         p.mb-0 El SARC debe contar al menos con los siguientes componentes básicos:
-      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema2/img11.png", style="width: 400px" alt="").m-auto
     .row.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema2/img12.png", style="width: 300px" alt="").m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Políticas de administración del Riesgo Crediticio (RC)")
             .col-12
@@ -104,9 +104,9 @@
           .row(titulo="Procesos de control interno")
             .col-12
               p.mb-0 El diseño e implementación de un esquema para la administración del RC, debe contar con procesos de control interno, mediante los cuales se verifique la implementación de las metodologías, procedimientos y, en general, el cumplimiento de todas las reglas de su funcionamiento, incluyendo especialmente el oportuno flujo de información a la junta directiva, consejo de administración y al nivel administrativo de la entidad.
-    p.mb-5 Es así como en las diferentes etapas de los procesos, se debe generar la información necesaria para evaluar los respectivos riesgos, la cual ayuda en la toma de decisiones y contiene las siguientes etapas relacionadas con la operación de crédito:
+    p.mb-5(data-aos="fade-right") Es así como en las diferentes etapas de los procesos, se debe generar la información necesaria para evaluar los respectivos riesgos, la cual ayuda en la toma de decisiones y contiene las siguientes etapas relacionadas con la operación de crédito:
     .row.justify-content-center
-      .col-md-8.col-lg-4.mb-4.mb-lg-0
+      .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c8
           .row.justify-content-center.mb-3
             .col-5
@@ -116,7 +116,7 @@
               .p-2.bg-c5
                 p.text-white.mb-0 #[b Etapa de otorgamiento]
           p.text-center Se basa en el conocimiento de la persona susceptible de crédito o contraparte, de su capacidad de pago y de las características del contrato a celebrar entre las partes, que incluyen entre otros, las condiciones del préstamo, las garantías, las fuentes de pago y las condiciones macroeconómicas a las que pueda estar expuesto.
-      .col-md-8.col-lg-4.mb-4.mb-lg-0
+      .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c8
           .row.justify-content-center.mb-3
             .col-5
@@ -127,7 +127,7 @@
                 p.text-white.mb-0 #[b Etapa de seguimiento y control]
           p.text-center Supone un continuo monitoreo y calificación de las operaciones crediticias, acorde con el proceso de otorgamiento.
           p.text-center.mb-0 En el caso de microcréditos, el continuo monitoreo y calificación de las operaciones crediticias, se debe realizar considerando como mínimo los aspectos evaluados en el proceso de otorgamiento, perfil del deudor, plazo de la operación y frecuencia de los pagos.
-      .col-md-8.col-lg-4
+      .col-md-8.col-lg-4(data-aos="fade-left")
         .p-4.bg-c8
           .row.justify-content-center.mb-3
             .col-5

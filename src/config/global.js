@@ -439,8 +439,13 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animador y Productor Multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -458,11 +463,11 @@ export default {
         //  cargo: 'Validador de Recursos Educativos Digitales',
         //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
         //},
-        //{
-        //  nombre: 'Jaime Hernán Tejada Llano',
-        //  cargo: 'Validador de Recursos Educativos Digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',

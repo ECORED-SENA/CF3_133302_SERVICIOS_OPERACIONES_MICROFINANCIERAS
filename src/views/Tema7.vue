@@ -145,7 +145,7 @@
             .p-4.p-lg-5(titulo="Extrovertido - Influyente" :icono="require('@/assets/curso/tema6/img2.svg')")
               .row.align-items-center.justify-content-center
                 .col-lg-7.mb-4.mb-lg-0
-                  p #[b Aable]
+                  p #[b Amable]
                   ul.lista-ul
                     li.d-flex
                       i.fas.fa-check-circle(style="color: #B15815")

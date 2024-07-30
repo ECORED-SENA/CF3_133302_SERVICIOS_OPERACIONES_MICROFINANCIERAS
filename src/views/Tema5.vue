@@ -18,14 +18,14 @@
                 img(src="@/assets/curso/tema5/img1.png", style="width: 400px" alt="").m-auto
           figure.mb-5(data-aos="fade-right")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/jP1nGUneQos?si=8tNIfKQW0nAOnOlN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           p.mb-5(data-aos="fade-right") Con esta información se hacen diferentes cálculos y se toman las ventas que arrojen un menor valor. El siguiente video nos presenta un ejemplo.
     .row.bg-c16
       .col-12
         .px-5.pt-5
           figure.mb-5(data-aos="fade-right")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/m4aFXMcfu_E?si=X83OGCvHy4bJ3xe_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           .tarjeta.color-secundario.p-3.mb-5(data-aos="fade-left")
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-1
@@ -41,7 +41,7 @@
           p.mb-5(data-aos="fade-right") Para continuar con el estudio del crédito, conozcamos sobre el flujo de efectivo, información que se presenta en el siguiente video.
           figure.mb-5(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/erfyZ4of1C8?si=O_CBoZFq-8PPbc3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p(data-aos="fade-right") De acuerdo con el ejemplo del video, analicemos:
     p(data-aos="fade-right") #[b.txt-c2 Costo de ventas]
     p(data-aos="fade-right") Los artículos que más venden tienen los siguientes precios:

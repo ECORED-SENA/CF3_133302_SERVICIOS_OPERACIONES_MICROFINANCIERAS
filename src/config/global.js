@@ -236,52 +236,12 @@ export default {
   },
   complementario: [
     {
-      tema: 'Mercado objetivo',
-      referencia:
-        'Prieto Herrera, J. E. (2009). Investigación de mercados. Ecoe Ediciones.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/69104',
-    },
-    {
       tema: 'Sistema de administración de riesgo crediticio SARC',
       referencia:
         'Ruza, C. (2013). El riesgo de crédito en perspectiva. UNED - Universidad Nacional de Educación a Distancia.',
       tipo: 'Libro',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/48687',
-    },
-    {
-      tema: 'Factores de evaluación para los microcréditos',
-      referencia:
-        'Morales Castro, J. A. y Castro. Arturo, M. (2015). Crédito y cobranza. Grupo Editorial Patria.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/39380',
-    },
-    {
-      tema: 'Minería de datos y confidencialidad',
-      referencia:
-        'Marqués, M. (2009). Bases de datos. D - Universitat Jaume I. Servei de Comunicació i Publicacions.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/51645',
-    },
-    {
-      tema: 'Técnicas de comprobación de la información de clientes',
-      referencia:
-        'Arenal Laza, C. (2018). Técnicas de información y atención al cliente, consumidor, usuario: UF0037. Editorial Tutor Formación.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44246',
-    },
-    {
-      tema: 'Capacidad de pago',
-      referencia:
-        'Lavalle Burguete, A. C. (2017). Análisis financiero. Editorial Digital UNID.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/41183',
     },
   ],
   glosario: [
@@ -315,8 +275,6 @@ export default {
     {
       referencia:
         'Arenal Laza, C. (2018). Técnicas de información y atención al cliente, consumidor, usuario: UF0037. Editorial Tutor Formación. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44246',
     },
     {
       referencia:
@@ -332,49 +290,34 @@ export default {
     {
       referencia:
         'Greciet Paredes, P. (2013). Contabilidad básica para micro, pequeña y medianas empresa en Honduras. Ministerio de Educación de España. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/49356',
     },
     {
       referencia:
         'Jaffe, D. y Price, B. (2015). ¡Tú cliente manda!. Grupo Editorial Patria. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/114221',
     },
     {
       referencia:
         'Lavalle Burguete, A. C. (2017). Análisis financiero. Editorial Digital UNID. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/41183',
     },
     {
       referencia:
         'Marqués, M. (2009). Bases de datos. D - Universitat Jaume I. Servei de Comunicació i Publicacions. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/51645',
     },
     {
       referencia:
         'Moldejar, J., Lorenzo, C. & Borja, (2008). Interacción persona-ordenador en la investigación del proceso de decisión del consumidor. ',
-      link: '',
     },
     {
       referencia:
         'Morales Castro, J. A. y Castro. Arturo, M. (2015). Crédito y cobranza. Grupo Editorial Patria. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/39380',
     },
     {
       referencia:
         'Prieto Herrera, J. E. (2009). Investigación de mercados. Ecoe Ediciones. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/69104',
     },
     {
       referencia:
         'Ruza, C. (2013). El riesgo de crédito en perspectiva. UNED - Universidad Nacional de Educación a Distancia. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/48687',
     },
     {
       referencia:
@@ -384,14 +327,10 @@ export default {
     {
       referencia:
         'Thompson, H. (2016). ¿¿Quién se ha llevado a mi cliente?? Estrategias clave para fidelizar a los clientes. Grupo Editorial Patria. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/114369',
     },
     {
       referencia:
         'Zapata Martelo, E. Garcí, Z. y Alberti Manzanares, P. (2008). Microfinanciamiento y empoderamiento de mujeres rurales: las cajas de ahorro y crédito en México. Plaza y Valdés, S.A. de C.V. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/75513',
     },
   ],
   creditos: [

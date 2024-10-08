@@ -59,7 +59,7 @@
                     .px-4.py-3.bg-c5
                       p.text-white.mb-0 #[b Garantía prendaria o pignoración]
                 p.text-center.mb-0 Son bienes muebles como vehículo o maquinaria, que quedan a favor de la entidad financiera, garantizando el pago de la deuda.
-    p.mb-0(data-aos="fade-right") El otorgamiento del crédito se convierte en el inicio de una relación gana - gana de la entidad financiera con el microempresario, y para profundizar en el tema, lo invitamos a consultar el capítulo 5 del libro Crédito y cobranza, el cual se encuentra en el material complementario.
+    p.mb-0(data-aos="fade-right") El otorgamiento del crédito se convierte en el inicio de una relación gana - gana de la entidad financiera con el microempresario.
 
 </template>
 

@@ -186,7 +186,7 @@
     .row.align-items-center
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p Se deben hacer cruces de información para saber si el valor de las compras es similar a ese costo de venta.
-        p.mb-5 Una persona que casi no compre, quiere decir que tampoco vende, aunque existen algunos negocios que no requieren mayores compras, como la parte de ensamble en las confecciones, donde la persona que contrata dichos servicios,es la que coloca las telas y demás.
+        p.mb-5 Una persona que casi no compre, quiere decir que tampoco vende, aunque existen algunos negocios que no requieren mayores compras, como la parte de ensamble en las confecciones, donde la persona que contrata dichos servicios, es la que coloca las telas y demás.
         p #[b.txt-c2 Flujo de unidad familiar]
         p.mb-0 En el microcrédito se debe tener en cuenta la unidad familiar, porque los microempresarios retiran dinero de su negocio para suplir sus propias necesidades y las de su familia. De acuerdo a cómo vive y cómo tiene el negocio, así también serán sus ingresos y egresos, es importante entender cómo se manejan los ingresos familiares y mantener ese dato presente.
       .col-lg-5(data-aos="fade-left")

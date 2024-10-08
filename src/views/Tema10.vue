@@ -166,7 +166,7 @@
       .col-lg-6(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema10/img4.png", style="width: 530px" alt="alt").m-auto
-    p.mb-0(data-aos="fade-right") El tema de análisis financiero es importante en la preparación para un analista o un comercial, que haga uso de la información para la decisión de un crédito, es por eso que lo invitamos a consultar el capítulo 1 del libro Análisis financiero, el cual se encuentra en el material complementario.
+
 
 </template>
 

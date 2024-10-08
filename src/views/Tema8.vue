@@ -74,9 +74,9 @@
           img(src="@/assets/curso/tema8/img3.png", style="width: 300px" alt="").m-auto
     Separador
     #t_8_1
-    .titulo-segundo.color-primario
+    .titulo-segundo.color-primario.mb-0
       h2 8.1 Minería de datos y confidencialidad
-    .row.bg-c23
+    .row.bg-c23.pt-5
       .col-12
         .px-5
           p(data-aos="fade-right") La minería de datos (#[i data mining]), es un proceso para detectar información de conjuntos grandes de datos, su objetivo es encontrar patrones, tendencias o reglas que expliquen el comportamiento de los datos en un contexto específico.
@@ -119,10 +119,6 @@
           .row.align-items-center.mb-5
             .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
               p Es así como muchas empresas aprovechan la información de la minería de datos y asumen que el individuo la entrega, por ejemplo, si una persona realiza transacciones con su tarjeta de crédito o con algún otro producto y esta información es muy útil para las empresas, detectando hábitos de consumo y de pago, estos datos los pueden utilizar con fines comerciales.
-              .row
-                .col-12
-                  .p-4.bg-c15
-                    p.mb-0 Para ampliar la información, lo invitamos a consultar el capítulo 1 del libro Bases de datos, el cual se encuentra en el material complementario.
             .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema8/img5.svg", style="width: 140px" alt="").m-auto

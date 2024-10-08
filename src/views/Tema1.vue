@@ -72,7 +72,7 @@
                               p.text-white.mb-0 #[b Ubicación geográfica]
                         p.text-center Los usuarios potenciales del producto o servicio, pueden vivir en un área determinada, que puede afectar la comercialización y distribución de su producto o servicio.
     p.mb-5(data-aos="fade-right") Específicamente para las microfinanzas, el mercado objetivo serán los microempresarios que cumplan características de acuerdo con la política de captación y colocación de la entidad financiera o microfinanciera.
-    .row.alig-items-center.mb-5
+    .row.alig-items-center
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         .p-4.bg-c6.h-100
           p Ahora, la segmentación de mercado o segmentación de clientes, es un proceso por el cual se pueden dividir a los clientes potenciales en distintos grupos.
@@ -80,7 +80,6 @@
       .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/img2.png", style="width: 400px" alt="")
-    p.mb-0(data-aos="fade-right") Para profundizar en el tema de segmentación de mercado, lo invitamos a consultar el capítulo 2 del libro #[b Investigación de Mercados], el cual se encuentra en el material complementario.
 
 </template>
 

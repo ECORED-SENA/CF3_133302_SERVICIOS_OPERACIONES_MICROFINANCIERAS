@@ -162,12 +162,6 @@
             .col-lg-6(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema4/img5.png', alt='', style='width: 500px').m-auto
-          .row.align-items-center.mb-5(data-aos="fade-down")
-            .col-md-auto.mb-4.mb-md-0
-              figure
-                img(src='@/assets/curso/tema4/img2.svg', alt='', style='width: 160px').m-auto
-            .col
-              p.mb-0 Para analizar más el tema, lo invitamos a consultar el capítulo 3 del libro Crédito y cobranza, el cual se encuentra en el material complementario.
 
 </template>
 

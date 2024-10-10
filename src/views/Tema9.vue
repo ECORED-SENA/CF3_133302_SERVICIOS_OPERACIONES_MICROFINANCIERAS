@@ -54,7 +54,15 @@
             .col-12
               p Consiste en hacer entrevistas en lugares cercanos al negocio, como establecimientos y vecinos, teniendo objetividad en lo que se pregunta, evitando malinterpretar o que coja otro rumbo la entrevista.
               p.mb-0 Es de suma importancia contar con los comentarios de las personas que se encuentran en el entorno del cliente que se encuentra realizando una solicitud de crédito, en aspectos que no pueden ser evidentes al momento de la visita, tales como la antigüedad del negocio, si los vecinos observan que ingresan clientes constantemente, cómo ven el negocio físicamente, qué les gustaría cambiar para hacerlo más atractivo, el comportamiento y atención de servicio que tiene el dueño del negocio, los horarios de apertura y cierre, la limpieza, el orden, entre otros.
-
+    .row.justify-content-center.mt-5
+      .col-lg-10
+        .p-4.bg-c15(data-aos="fade-right")
+          .row.align-items-center
+            .col.mb-4.mb-md-0
+              p.mb-0 La información siempre será la base en cualquier actividad económica, es por ello que debe tener un tratamiento especial y unas técnicas para su verificación. 
+            .col-md-auto
+              figure
+                img(src="@/assets/curso/tema9/img1.svg", style="width: 100px" alt="alt").m-auto
 
 </template>
 

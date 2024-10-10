@@ -159,13 +159,16 @@
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         p En el estudio de un crédito es determinante para el otorgamiento o no del microcrédito o crédito y para eso es recomendable tener en cuenta la capacidad de pago, con esta se obtiene la situación económica del negocio y cómo esta capacidad de pago se refleja en los estados financieros y la liquidez precisa con que cuenta el negocio / propietario para atender las cuotas del crédito.
         p La capacidad se determinará mediante la formulación de los estados financieros de la microempresa (balance general el estado de pérdidas y ganancias), y el flujo de caja de la unidad socioeconómica.
-        .row
+        .row.mb-4
           .col-12
             .p-4.bg-c15
               p.mb-0 El flujo mensual de efectivo de la unidad socioeconómica, establece la totalidad de los ingresos y los egresos de la unidad familiar, así como el flujo de caja del solicitante del crédito.
+              
+        p El tema de análisis financiero es importante en la preparación para un analista o un comercial, que haga uso de la información para la decisión de un crédito.              
       .col-lg-6(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema10/img4.png", style="width: 530px" alt="alt").m-auto
+
 
 
 </template>

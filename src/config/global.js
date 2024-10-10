@@ -240,8 +240,7 @@ export default {
       referencia:
         'Ruza, C. (2013). El riesgo de crédito en perspectiva. UNED - Universidad Nacional de Educación a Distancia.',
       tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/48687',
+      link: 'https://dialnet.unirioja.es/servlet/libro?codigo=565706',
     },
   ],
   glosario: [
